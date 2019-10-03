@@ -9,6 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader , TensorDataset
 from torch import nn
+from define_model import process_model
 #Global variables
 punctuation = punctuation + "/" + ">" + "<" + "!" + "+"
 
